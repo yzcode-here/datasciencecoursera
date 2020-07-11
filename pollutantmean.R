@@ -1,4 +1,4 @@
-library(tidyverse) # needed for pipingm map_df and read_csv
+library(tidyverse) # needed for piping, map_df and read_csv
 
 pollutantmean <- function(directory, pollutant, id = 1:332) {
   ids <- sprintf("%03d", id) # adding leading zeros to ids to match with file names
